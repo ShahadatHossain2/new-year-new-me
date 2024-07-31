@@ -37,3 +37,30 @@ header{
     border-radius: 5px;
     font-size: 20px;
 }
+.failure-section{
+    margin: 50px 250px;
+    display: flex;
+    gap: 200px;
+}
+.failure-title{
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+}
+.failure-description, .failure-list{
+    font-size: 16px;
+    color: #444343;
+}
+.failure-description{
+    padding-right: 100px;
+    padding-bottom: 10px;
+}
+.failure{
+    margin-top: 60px;
+}
+img{
+    width: 180%;
+}
+.person-image{
+    /* margin-right: 50px; */
+}
