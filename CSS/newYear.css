@@ -37,6 +37,8 @@ header{
     border-radius: 5px;
     font-size: 20px;
 }
+
+/* Main section */
 .failure-section{
     margin: 50px 250px;
     display: flex;
@@ -58,9 +60,47 @@ header{
 .failure{
     margin-top: 60px;
 }
-img{
+.person-image{
     width: 180%;
 }
 .person-image{
     /* margin-right: 50px; */
+}
+
+.my-plan{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.plan-title{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.plan-section{
+    margin: 100px 130px;
+}
+
+.banner-2{
+    background-image: url(/images/gradient3.png), url(/images/watch.png);
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    margin: 100px 130px;
+}
+
+.banner-title{
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.banner-content>button{
+    color: #F15B22;
+}
+.banner-content{
+    padding: 80px 40px;
+    max-width: 50%;
 }
